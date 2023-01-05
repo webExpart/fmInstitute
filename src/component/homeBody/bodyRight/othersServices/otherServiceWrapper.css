@@ -1,0 +1,52 @@
+.Others-info-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.Others-info-wrapper .other-card-wrapper{
+    width: 100%;
+    height: 90vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+}
+.other-card-wrapper .otherCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 1rem;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom right, #F54EA2, #FF7676),
+    linear-gradient(to Left top, #ffffff, #f1b9b9);
+}
+.otherCards .name{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+.otherCards .dec{
+    font-size: 14px;
+    color: rgb(236, 236, 236);
+    font-family: poppins;
+    text-align: center;
+}
+.otherCards a{
+    padding: 8px 22px;
+    background-color: #fff;
+    color: #F54EA2;
+    font-size: 22px;
+}
+@media (max-width: 910px) {
+    .Others-info-wrapper .other-card-wrapper{
+        width: 100%;
+        height: 100%;
+    }
+}

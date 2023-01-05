@@ -1,0 +1,125 @@
+.course-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+.course-intro .course-name{
+    font-size: 36px;
+    padding: 10px 20px;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(250,63,63);
+}
+.course-intro .course-dec{
+    font-size: 18px;
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+.course-intro .course-modoul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.course-modoul-items{
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.course-intro .course-modoul .course-modoul-item{
+    width: 100%;
+    background-color: rgb(250,63,63);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.course-intro 
+.course-modoul 
+.course-modoul-item
+.lesson-name{
+    color: #fff;
+    font-size: 18px;
+}
+.course-intro 
+.course-modoul 
+.course-modoul-item
+.class-day{
+    color: #fff;
+    font-size: 18px;
+}
+
+.course-intro .course-pricing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.course-intro .course-pricing .price-tables{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 20px;
+}
+.course-intro 
+.course-pricing 
+.price-tables 
+.price-table{
+    min-width: 220px;
+    min-height: 60vh;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: linear-gradient(to bottom right, #F54EA2, #FF7676),
+    linear-gradient(to Left top, #ffffff, #f1b9b9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.price-table .package-name{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.price-table .free-item{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+}
+.price-table .course-fe{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 10px;
+    border-bottom: 2px solid #fff;
+}
+.course-intro .student-review{
+    width: 100%;
+}

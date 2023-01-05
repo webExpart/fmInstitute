@@ -1,0 +1,9 @@
+.siteFooter{
+    width: 100%;
+    background-color: rgb(250, 63,63);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}

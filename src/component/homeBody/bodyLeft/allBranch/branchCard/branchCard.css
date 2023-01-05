@@ -1,0 +1,58 @@
+.branchCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom right, #FCE38A, #F38181);
+    cursor: pointer;
+    width: 46%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+    text-align: center;
+}
+.branchCard:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(27, 206, 223, 0.2), 0 6px 20px 0 rgba(27, 206, 223, 0.2);
+}
+.branchCard h2{
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+}
+.branchCard a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+}
+.branchCard span{
+    font-size: 22px;
+    color: rgb(56, 56, 56);
+}
+/* media query start   */
+
+@media (max-width:910px) {
+    .branchCard{
+        text-align: center;
+        width: 95%;
+        height: 220px;
+        text-align: center;
+    }
+}
+
+@media (max-width:710px) {
+    .branchCard{
+        width: 45%;
+    }
+}
+@media (max-width:500px) {
+    .branchCard{
+        width: 100%;
+    }
+}
+/* media query end */

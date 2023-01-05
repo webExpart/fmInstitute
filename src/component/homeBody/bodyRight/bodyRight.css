@@ -1,0 +1,6 @@
+.homeRightSection{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 1.5rem;
+}

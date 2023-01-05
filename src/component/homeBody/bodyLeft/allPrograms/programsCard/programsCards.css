@@ -1,0 +1,58 @@
+.programsCard{
+    /* background-color: rgb(250, 63, 63); */
+    background: linear-gradient(to bottom right, #F54EA2, #FF7676),
+                linear-gradient(to Left top, #ffffff, #f1b9b9);
+    cursor: pointer;
+    width: 45%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.programsCard:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 4px 8px 0 rgba(27, 206, 223, 0.2), 0 6px 20px 0 rgba(27, 206, 223, 0.2);
+}
+.programsCard h3{
+    color: rgb(255, 255, 255);
+}
+.programsCard a{
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(250, 63, 63);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all .5s ease-in-out;
+}
+.programsCard a:hover{
+    background: linear-gradient(to bottom right, #F54EA2, #FF7676);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+/* media query start   */
+@media (max-width:910px) {
+    .programsCard{
+        width: 95%;
+    }
+}
+
+@media (max-width:710px) {
+    .programsCard{
+        width: 45%;
+    }
+}
+@media (max-width:500px) {
+    .programsCard{
+        width: 100%;
+    }
+}
+/* media query end */

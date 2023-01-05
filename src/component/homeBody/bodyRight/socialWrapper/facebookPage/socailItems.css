@@ -1,0 +1,36 @@
+.facebook-item{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(36, 186, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.midDiv{
+     display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.midDiv .facebookIcon{
+    font-size: 42px;
+    color: #fff;
+}
+.midDiv span{
+    font-size: 32px;
+    color: #fff;
+}
+.facebook-item a{
+    font-size: 22px;
+    color: rgb(250, 63, 63);
+    text-decoration: none;
+    background-color: #fff;
+    padding: 8px 12px;
+    transition: all .5s ease;
+}
+.facebook-item a:hover{
+    transform: translateX(10px);
+}

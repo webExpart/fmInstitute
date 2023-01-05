@@ -1,0 +1,15 @@
+.noti-card{
+    padding: 8px;
+    display: flex;
+    gap: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .5s ease;
+}
+.noti-card:hover{
+    transform: translateY(-5px);
+    color: red;
+}
+.noti-card .iconColor{
+    color: rgb(250, 63, 63);
+    font-size: 24px;
+}

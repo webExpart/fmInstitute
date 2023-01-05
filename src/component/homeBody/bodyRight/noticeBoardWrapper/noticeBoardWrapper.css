@@ -1,0 +1,14 @@
+.notice-board-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.notification-wrapper{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    gap: .5rem;
+    flex-direction: column;
+    height: 60vh;
+    overflow-y: auto;
+}
